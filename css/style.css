@@ -38,7 +38,8 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 #mainnav a{
 	color: #000;
-	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+	font-family: 'Noto Sans JP',serif;
+	font-weight: bold;
 }
 
 
@@ -55,13 +56,18 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 /* 共通
 ------------------------------------------------------------*/
 h1, h2{
-	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+	font-family: 'Noto Sans JP',serif;
 }
 
 img{
 	max-width: 100%;
 	height: auto;
+	animation: fadein 5s ease-out forwards;
 }
+@keyframes fadein {/*画像のフェードイン*/
+	0% {opacity: 0}
+	100% {opacity: 1}
+  }
 
 section{
   clear: both;

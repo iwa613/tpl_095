@@ -1,5 +1,4 @@
 $(function(){
-	
 	var
 	  winW = $(window).width(),
 		winH = $(window).height(),
